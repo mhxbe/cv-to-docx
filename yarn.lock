@@ -2031,6 +2031,12 @@ doctrine@^2.0.0:
   dependencies:
     esutils "^2.0.2"
 
+docxtemplater@3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/docxtemplater/-/docxtemplater-3.6.2.tgz#8c8d2433f57d289b1fd19595982317053fabd1f2"
+  dependencies:
+    xmldom "^0.1.27"
+
 dom-converter@~0.1:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/dom-converter/-/dom-converter-0.1.4.tgz#a45ef5727b890c9bffe6d7c876e7b19cb0e17f3b"
@@ -2874,6 +2880,13 @@ gauge@~2.7.3:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
+
+generate-docx@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/generate-docx/-/generate-docx-2.0.1.tgz#373f44927f475509dbcbf9a2e8b7220ca0f6d286"
+  dependencies:
+    docxtemplater "3.6.2"
+    jszip "2.6.1"
 
 get-caller-file@^1.0.1:
   version "1.0.2"
@@ -4085,6 +4098,12 @@ jsx-ast-utils@^2.0.0:
   dependencies:
     array-includes "^3.0.3"
 
+jszip@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/jszip/-/jszip-2.6.1.tgz#b88f3a7b2e67a2a048152982c7a3756d9c4828f0"
+  dependencies:
+    pako "~1.0.2"
+
 killable@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/killable/-/killable-1.0.0.tgz#da8b84bd47de5395878f95d64d02f2449fe05e6b"
@@ -4872,7 +4891,7 @@ package-json@^4.0.0:
     registry-url "^3.0.3"
     semver "^5.1.0"
 
-pako@~1.0.5:
+pako@~1.0.2, pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
@@ -7066,6 +7085,10 @@ xdg-basedir@^3.0.0:
 xml-name-validator@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/xml-name-validator/-/xml-name-validator-2.0.1.tgz#4d8b8f1eccd3419aa362061becef515e1e559635"
+
+xmldom@^0.1.27:
+  version "0.1.27"
+  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
 
 xtend@^4.0.0:
   version "4.0.1"
